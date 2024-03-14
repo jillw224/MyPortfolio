@@ -1,0 +1,123 @@
+/* For General Style */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+p {
+    color:black;
+}
+
+/* Nav Bar */
+
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+    background-color: hsl(255, 77%, 73%);
+    justify-content: right;
+    overflow: hidden;
+}
+
+.navbar a{
+    text-decoration: none;
+    padding: 10px;
+    color: black
+}
+
+/* pseudo class */
+.navbar a:hover{
+    background-color:  hsl(255, 77%, 93%);
+    font-weight: bold;
+}
+
+.navbar li{
+    float: display;
+}
+
+button a{
+    color:rgb(91, 52, 206)
+}
+
+main {
+    padding-top: 4vh;
+    height: 96vh;
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+}
+
+.section-container{
+    display: flex;
+}
+
+#profile {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    height: 80vh;
+}
+
+.section_pic-container{
+    display: flex;
+    height: 300px;
+    width: 300px;
+    margin: auto 0;
+}
+
+.section_text{
+    align-self: center;
+    text-align: center;
+}
+
+.section__text p{
+    font-weigth: 600;
+}
+
+.section__text__p1{
+    text-align:center;
+}
+
+.section__text__p1{
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+
+.title {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.btnContainer{
+    display: flex;
+    justify-content: bottom;
+    gap: 1rem;
+}
+.btn{
+    font-weight: 600;
+    transition: all 300ms ease;
+    padding: 1rem;
+    width: 8rem;
+    border-radius: 2rem;
+}
+.btn-color-1. .btn-color-2{
+    border: rgb(91, 52, 206) 0.1rem solid;
+}
+
+.btn-color-1:hover,
+.btn-color-2:hover {
+    cursor: pointer;
+
+}
+
+footer{
+    list-style-type: none;
+    display: flex;
+    background-color: hsl(255, 77%, 73%);
+    justify-content: center;
+    overflow: hidden;
+}
